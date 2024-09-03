@@ -1,0 +1,55 @@
+/* Basic global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+.language-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.language-card {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.language-card.selected {
+  background-color: #d0e0ff;
+  border-color: #a0c0ff;
+}
+
+.language-flag {
+  font-size: 2rem;
+}
+
+.language-name {
+  display: block;
+  margin-top: 5px;
+}

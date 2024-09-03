@@ -1,0 +1,60 @@
+.stepper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.language-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.language-card.selected {
+  background-color: #d3d3d3;
+}
+
+.language-card img {
+  width: 20px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+}
+.language-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.language-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.language-card.selected {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.language-card .flag {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 8px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
